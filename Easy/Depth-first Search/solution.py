@@ -17,7 +17,7 @@ class Node:
 # E is number of Edges
 # Time: O(V + E)
 # Space: O(V)
-  def depthFirstSearch(self, array):
+def depthFirstSearch(self, array):
   array.append(self.name)
   for child in self.children:
     child.depthFirstSearch(array)
