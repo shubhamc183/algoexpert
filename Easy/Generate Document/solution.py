@@ -8,7 +8,7 @@ def _insert_in_map(character, _map):
 # Time Complexity: O(n + m) where n is the length of characters and m is the length of document
 # Space Complexity: O(a + b) where a and b are the count of distinct characters in string characters and document respectively
 def generateDocument1(characters, document):
-    available_map = {}
+  available_map = {}
 	required_map = {}
 	for _ in characters:
 		_insert_in_map(_, available_map)
@@ -25,7 +25,7 @@ def generateDocument1(characters, document):
 # Time Complexity: O(n + m) where n is the length of characters and m is the length of document
 # Space Complexity: O(a) where a is the count of distinct characters in string characters
 def generateDocument2(characters, document):
-    available_map = {}
+  available_map = {}
 	required_map = {}
 	for _ in characters:
 		_insert_in_map(_, available_map)
