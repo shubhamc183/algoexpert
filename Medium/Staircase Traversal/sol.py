@@ -44,3 +44,37 @@ def staircaseTraversal3(height, maxSteps):
             step += 1
     return ways[height]
 
+# Classic Problem of Sliding Window!!
+# Single Loop
+# T.C: O(n)
+# S.C: O(n)
+def staircaseTraversal4(height, maxSteps):
+    ways = [0 for _ in range(height + 1)]
+    ways[0], ways[1] = 1, 1
+    sum_of_last_max_steps = 0
+    for current_height in range(2, height + 1):
+        if current_height == 2:
+            sum_of_last_max_steps = sum(ways[max(0, current_height - maxSteps) : current_height])
+        else:
+            sum_of_last_max_steps += ways[current_height - 1]
+        if current_height - maxSteps >= 0:
+            sum_of_last_max_steps -= ways[current_height -1 - maxSteps]
+        ways[current_height] = sum_of_last_max_steps
+    return ways[height]
+
+# Cleaner Approach by AlgoExpert
+# Classic Problem of Sliding Window!!
+# T.C: O(n)
+# S.C: O(n)
+def staircaseTraversal(height, maxSteps):
+    ways_to_reach = [1]
+    sliding_number_of_ways = 0
+    for current_height in range(1, height + 1):
+        start_of_window = current_height - maxSteps - 1
+        end_of_window = current_height - 1
+        if start_of_window >= 0:
+            sliding_number_of_ways -= ways_to_reach[start_of_window]
+        sliding_number_of_ways += ways_to_reach[end_of_window]
+        ways_to_reach.append(sliding_number_of_ways)
+    return ways_to_reach[height]
+
