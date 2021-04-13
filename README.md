@@ -7,3 +7,8 @@ I have realized some files have indentation problem. As, I copied codes from my 
 ## Sliding Window Approach
 Classic Example
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
+
+
+## Time Complexities to revisit
+- [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
+- [Phone Number Mnemonics](Medium/Phone%20Number%20Mnemonics/sol.py)
