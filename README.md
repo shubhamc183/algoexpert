@@ -4,6 +4,10 @@ My solutions for https://www.algoexpert.io/
 ## Indentation Problem
 I have realized some files have indentation problem. As, I copied codes from my AlgoExpert's solutions to VS Code they looked fine but actually they had indentation issue.
 
+## Sorting
+- [Insertion Sort](Easy/Insertion%20Sort/sol.py): Imagine Array as sorted and unsorted array; keeping swapping number in backwards
+- [Selection Sort](Easy/Selection%20Sort/sol.py): Loop to the end & **SELECT** the smallest element to swap
+
 ## Sliding Window Approach
 Classic Example
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
