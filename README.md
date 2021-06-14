@@ -15,11 +15,12 @@ I have realized some files have indentation problem. As, I copied codes from my 
 Classic Example
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
 
+## Miscellaneous Time Complexity
+- [Breadth-first Search](Medium/Breadth-first%20Search/sol.py)
 
 ## Time Complexities to revisit
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
 - [Phone Number Mnemonics](Medium/Phone%20Number%20Mnemonics/sol.py)
-
 
 ## Classic DPs
 - [Min Number Of Coins For Change](Medium/Min%20Number%20Of%20Coins%20For%20Change/sol.py)
