@@ -11,6 +11,9 @@ I have realized some files have indentation problem. As, I copied codes from my 
 ## Double Recusrion
 - [Sort Stack](Medium/Sort%20Stack/sol.py)
 
+## Recusrion with swapping number back n forth
+- [Permutations](Medium/Permutations/sol.py)
+
 ## Sliding Window Approach
 Classic Example
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
@@ -19,6 +22,7 @@ Classic Example
 - [Breadth-first Search](Medium/Breadth-first%20Search/sol.py)
 
 ## Time Complexities to revisit
+- [Permutations](Medium/Permutations/sol.py)
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
 - [Phone Number Mnemonics](Medium/Phone%20Number%20Mnemonics/sol.py)
 
