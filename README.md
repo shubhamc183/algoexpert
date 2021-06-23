@@ -25,6 +25,7 @@ Classic Example
 - [Permutations](Medium/Permutations/sol.py)
 - [Staircase Traversal](Medium/Staircase%20Traversal/sol.py)
 - [Phone Number Mnemonics](Medium/Phone%20Number%20Mnemonics/sol.py)
+- [Number Of Ways To Traverse Graph/Worst Case](Medium/Number%20Of%20Ways%20To%20Traverse%20Graph/sol.py)
 
 ## Classic DPs
 - [Min Number Of Coins For Change](Medium/Min%20Number%20Of%20Coins%20For%20Change/sol.py)
