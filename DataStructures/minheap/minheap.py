@@ -1,6 +1,9 @@
 # https://www.youtube.com/watch?v=t0Cq6tVNRBA: Data Structures: Heaps
 #	https://www.youtube.com/watch?v=g9YK6sftDi0: Implement A Binary Heap - An Efficient Implementation of The Priority Queue ADT (Abstract Data Type)
 
+# T.C for getting min element: O(1)
+# T.C for adding or removing elment: O(log(size)) as maximum bubbling up/down
+# can be log(n) as each node can have maximum of two nodes if thought in Graph.
 class MinHeap():
 
 	def __init__(self):
