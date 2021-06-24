@@ -2,7 +2,7 @@
 #	https://www.youtube.com/watch?v=g9YK6sftDi0: Implement A Binary Heap - An Efficient Implementation of The Priority Queue ADT (Abstract Data Type)
 
 class MinHeap():
-_capacity
+
 	def __init__(self):
 		self._size, self._capacity, = 0, 10
 		self._heap = [0] * self._capacity
