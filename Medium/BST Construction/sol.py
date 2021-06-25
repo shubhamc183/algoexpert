@@ -42,6 +42,8 @@ class BST:
                 current = current.right
         return False
 
+    # Average T.C: O(log n), S.C: O(1)
+    # Worst T.C: O(n) if tree is one sided, S.C: O(1)
     def remove(self, value, parent_node=None):
         current = self
         while current:
