@@ -26,6 +26,9 @@ I have realized some files have indentation problem. As, I copied codes from my 
 - [Phone Number Mnemonics](Medium/Phone%20Number%20Mnemonics/sol.py)
 - [Number Of Ways To Traverse Graph/Worst Case](Medium/Number%20Of%20Ways%20To%20Traverse%20Graph/sol.py)
 
+## BST
+- [BST Construction's `removal case`](Medium/BST%20Construction/sol.py)
+
 ## Heap
 - [Min Heap Construction](Medium/Min%20Heap%20Construction/sol.py)
 
