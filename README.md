@@ -8,10 +8,10 @@ I have realized some files have indentation problem. As, I copied codes from my 
 - [Insertion Sort](Easy/Insertion%20Sort/sol.py): Imagine Array as sorted and unsorted array; keeping swapping number in backwards
 - [Selection Sort](Easy/Selection%20Sort/sol.py): Loop to the end & **SELECT** the smallest element to swap
 
-## Double Recusrion
+## Double Recursion
 - [Sort Stack](Medium/Sort%20Stack/sol.py)
 
-## Recusrion with swapping number back n forth
+## Recursion with swapping number back n forth
 - [Permutations](Medium/Permutations/sol.py)
 
 ## Sliding Window Approach
