@@ -36,3 +36,6 @@ I have realized some files have indentation problem. As, I copied codes from my 
 - [Min Number Of Coins For Change](Medium/Min%20Number%20Of%20Coins%20For%20Change/sol.py)
 - [Number Of Ways To Make Change](Medium/Number%20Of%20Ways%20To%20Make%20Change/sol.py)
 - [Levenshtein Distance](Medium/Levenshtein%20Distance/sol.py)
+
+## Simple yet Ticky
+- [Search In Sorted Matrix](Medium/Search%20In%20Sorted%20Matrix/sol.py)
