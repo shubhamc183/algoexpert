@@ -39,3 +39,6 @@ I have realized some files have indentation problem. As, I copied codes from my 
 
 ## Simple yet Ticky
 - [Search In Sorted Matrix](Medium/Search%20In%20Sorted%20Matrix/sol.py)
+
+## Famous Hard Questions
+- [LRU Cache](Very%20Hard/LRU%20Cache/sol.py)
